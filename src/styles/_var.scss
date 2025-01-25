@@ -1,0 +1,11 @@
+@use "./function" as *;
+
+$colorBlack: #000;
+$colorElectricViolet: #9d0ac1;
+$colorDenim: #1574bc;
+$colorSeashell: #f1f1f1;
+$colorWhite: #fff;
+$colorSnuff: #dbdcef;
+
+$mobileBreakpoint: 1024px;
+$borderRadius: getRem(5);

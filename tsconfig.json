@@ -1,0 +1,28 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@/components/*": ["src/components/*"],
+      "@/interfaces/*": ["src/interfaces/*"],
+      "@/enum": ["src/enum"],
+      "@/api": ["src/api"],
+      "@/store": ["src/store"],
+      "@/helpers": ["src/helpers"],
+    }
+  }
+}
